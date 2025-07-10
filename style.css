@@ -6,6 +6,7 @@
     font-weight: 600;
     font-style: normal;
     
+    
 }
 .header{
     width: 1440px;
@@ -14,6 +15,7 @@
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
+    background-color: #F5F8FF;
 }
 .nav{
   
@@ -80,6 +82,7 @@ li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #F5F8FF;
 }
 .action{
     margin-top: 100px;
@@ -87,6 +90,7 @@ li{
     height: 328px;
     display: flex;
     justify-content: space-between;
+
     
 }
 .write{
@@ -123,13 +127,15 @@ li{
     width:1140px;
     height:306px;
     background-color: #4E47FF1A;
-    ;
+    
 }
 .info{
     text-align: center;
     width:856px;
     height:206px;
     margin: auto auto;
+    
+   
     
 }
 .p3{
@@ -148,4 +154,81 @@ li{
     font-size: 80px;
     font-weight: bold;
     
+}
+.review{
+    width: 1140px;
+    height: 342px;
+    margin-top: 100px;
+}
+.p4{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.stars input {
+    display: none;
+}
+
+.dibba{
+    
+    height: 243px;
+    width:100%;
+    display: flex;
+    
+    justify-content: space-between;
+   
+   
+
+}
+.box{
+    padding: 24px 24px;
+    width: 320px;
+    background-color: #FFFFFF;
+
+
+}
+.intro{
+    display: flex;
+    align-items: center;
+}
+.introinfo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    text-align: center;
+    
+}
+.p5{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+.p6{
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.name{
+    margin-top: 0px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+.date{
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.intropic{
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+
+}
+.focus{
+    margin-top: 100px;
+    height: 697px;
+    background-color:#FFFFFF;
+    width: 1140px;
 }
