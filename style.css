@@ -269,3 +269,61 @@ li{
     border-radius: 48px;
     margin-top: 20px;
 }
+.touch{
+    height: 632px;
+    width:1140px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.let{
+    width:528px;
+    height: 232px;
+    font-size: 97px;
+    font-weight: bold;
+}
+.input{
+    width: 497px;
+    height: 490px;
+}
+.btn3{
+    margin-top: 10px;
+    height:62px;
+    width:497px;
+    background-color:#4E47FF;
+    font-weight:bold;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 16px;
+}
+#name{
+    width:497px;
+    height: 70px;
+    border-radius: 10px;
+    border:1px solid gray;
+    
+}
+#email{
+    width:497px;
+    height: 70px;
+    border-radius: 10px;
+    border:1px solid gray;
+}
+#message{
+    width:497px;
+    height: 135px;
+    border-radius: 10px;
+}
+input::placeholder,
+textarea::placeholder {
+    font-size: 16px;
+    padding-left: 10px; 
+    color: #999;
+}
+textarea::placeholder{
+    padding-top: 10px;
+}
+
