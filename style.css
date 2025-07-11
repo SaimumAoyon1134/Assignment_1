@@ -326,4 +326,29 @@ textarea::placeholder {
 textarea::placeholder{
     padding-top: 10px;
 }
-
+footer{
+    display: flex;
+    justify-content: center;
+    width:1440px;
+}
+.baxo{
+    margin-top: 100px;
+    height:221px;
+    width:531px;
+}
+.lgo{
+ color: #4E47FF;
+ text-align: center;
+ margin-bottom: 10px;
+ font-weight: bolder;
+ font-size: 100px;
+}
+.p{
+    font-weight: lighter;
+    text-align: center;
+}
+a{
+    font-weight: lighter;
+    text-decoration: none;
+    color: black;
+}
