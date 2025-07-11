@@ -189,6 +189,11 @@ li{
 
 
 }
+
+.box:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
 .intro{
     display: flex;
     align-items: center;
@@ -197,7 +202,7 @@ li{
     display: flex;
     flex-direction: column;
     padding-left: 10px;
-    text-align: center;
+    text-align: left;
     
 }
 .p5{
@@ -298,6 +303,14 @@ li{
     color: #FFFFFF;
     border-radius: 10px;
     font-size: 16px;
+ 
+}
+button:hover{
+    background-color: rgb(233,197,69);
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+    cursor: pointer;
+    color: black;
 }
 #name{
     width:497px;
